@@ -1,0 +1,123 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'async' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of C:\Users\gabriel.sevilla\Documents\Projects\Server\ServerNode\ServerNode\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\gabriel.sevilla\Documents\Projects\Server\ServerNode\ServerNode\node_modules\express\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\gabriel.sevilla\Documents\Projects\Server\ServerNode\ServerNode\node_modules\shortid\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\gabriel.sevilla\Documents\Projects\Server\ServerNode\ServerNode\node_modules\socket.io\package.json
+8 verbose readDependencies loading dependencies from C:\Users\gabriel.sevilla\Documents\Projects\Server\ServerNode\ServerNode\package.json
+9 silly cache add args [ 'async', null ]
+10 verbose cache add spec async
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'async',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'async',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: 'latest',
+11 silly cache add   type: 'tag' }
+12 silly addNamed async@latest
+13 verbose addNamed "latest" is being treated as a dist-tag for async
+14 info addNameTag [ 'async', 'latest' ]
+15 silly mapToRegistry name async
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry data Result {
+18 silly mapToRegistry   raw: 'async',
+18 silly mapToRegistry   scope: null,
+18 silly mapToRegistry   name: 'async',
+18 silly mapToRegistry   rawSpec: '',
+18 silly mapToRegistry   spec: 'latest',
+18 silly mapToRegistry   type: 'tag' }
+19 silly mapToRegistry uri https://registry.npmjs.org/async
+20 verbose addNameTag registry:https://registry.npmjs.org/async not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/async
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 12:28:29 PM
+24 verbose request id 81f7366bb6d85d64
+25 verbose etag "C9MU828GPC5SRFQUR9JMXKLDU"
+26 http request GET https://registry.npmjs.org/async
+27 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.32.162:443
+28 info attempt registry request try #2 at 12:29:00 PM
+29 verbose etag "C9MU828GPC5SRFQUR9JMXKLDU"
+30 http request GET https://registry.npmjs.org/async
+31 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.32.162:443
+32 info attempt registry request try #3 at 12:30:21 PM
+33 verbose etag "C9MU828GPC5SRFQUR9JMXKLDU"
+34 http request GET https://registry.npmjs.org/async
+35 silly get cb [ 304, undefined ]
+36 verbose etag https://registry.npmjs.org/async from cache
+37 verbose get saving async to C:\Users\gabriel.sevilla\AppData\Roaming\npm-cache\registry.npmjs.org\async\.cache.json
+38 verbose correctMkdir C:\Users\gabriel.sevilla\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+39 silly addNameTag next cb for async with tag latest
+40 silly addNamed async@2.0.1
+41 verbose addNamed "2.0.1" is a plain semver version for async
+42 silly mapToRegistry name async
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: 'async',
+45 silly mapToRegistry   scope: null,
+45 silly mapToRegistry   name: 'async',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npmjs.org/async
+47 verbose addRemoteTarball https://registry.npmjs.org/async/-/async-2.0.1.tgz not in flight; adding
+48 verbose addRemoteTarball [ 'https://registry.npmjs.org/async/-/async-2.0.1.tgz',
+48 verbose addRemoteTarball   'b709cc0280a9c36f09f4536be823c838a9049e25' ]
+49 info retry fetch attempt 1 at 12:30:42 PM
+50 info attempt registry request try #1 at 12:30:42 PM
+51 http fetch GET https://registry.npmjs.org/async/-/async-2.0.1.tgz
+52 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.32.162:443
+53 info attempt registry request try #2 at 12:31:13 PM
+54 http fetch GET https://registry.npmjs.org/async/-/async-2.0.1.tgz
+55 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.32.162:443
+56 info attempt registry request try #3 at 12:32:34 PM
+57 http fetch GET https://registry.npmjs.org/async/-/async-2.0.1.tgz
+58 error fetch failed https://registry.npmjs.org/async/-/async-2.0.1.tgz
+59 warn retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.32.162:443
+60 info retry fetch attempt 2 at 12:33:05 PM
+61 info attempt registry request try #1 at 12:33:05 PM
+62 http fetch GET https://registry.npmjs.org/async/-/async-2.0.1.tgz
+63 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.32.162:443
+64 info attempt registry request try #2 at 12:33:37 PM
+65 http fetch GET https://registry.npmjs.org/async/-/async-2.0.1.tgz
+66 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.32.162:443
+67 info attempt registry request try #3 at 12:34:58 PM
+68 http fetch GET https://registry.npmjs.org/async/-/async-2.0.1.tgz
+69 error fetch failed https://registry.npmjs.org/async/-/async-2.0.1.tgz
+70 warn retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.32.162:443
+71 info retry fetch attempt 3 at 12:36:19 PM
+72 info attempt registry request try #1 at 12:36:19 PM
+73 http fetch GET https://registry.npmjs.org/async/-/async-2.0.1.tgz
+74 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.32.162:443
+75 info attempt registry request try #2 at 12:36:50 PM
+76 http fetch GET https://registry.npmjs.org/async/-/async-2.0.1.tgz
+77 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.32.162:443
+78 info attempt registry request try #3 at 12:38:11 PM
+79 http fetch GET https://registry.npmjs.org/async/-/async-2.0.1.tgz
+80 error fetch failed https://registry.npmjs.org/async/-/async-2.0.1.tgz
+81 verbose stack Error: connect ETIMEDOUT 151.101.32.162:443
+81 verbose stack     at Object.exports._errnoException (util.js:870:11)
+81 verbose stack     at exports._exceptionWithHostPort (util.js:893:20)
+81 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+82 verbose cwd C:\Users\gabriel.sevilla\Documents\Projects\Server\ServerNode\ServerNode
+83 error Windows_NT 6.3.9600
+84 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "async"
+85 error node v4.4.5
+86 error npm  v2.15.5
+87 error code ETIMEDOUT
+88 error errno ETIMEDOUT
+89 error syscall connect
+90 error network connect ETIMEDOUT 151.101.32.162:443
+90 error network This is most likely not a problem with npm itself
+90 error network and is related to network connectivity.
+90 error network In most cases you are behind a proxy or have bad network settings.
+90 error network
+90 error network If you are behind a proxy, please make sure that the
+90 error network 'proxy' config is set properly.  See: 'npm help config'
+91 verbose exit [ 1, true ]
